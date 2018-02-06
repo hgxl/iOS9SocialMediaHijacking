@@ -44,7 +44,7 @@ class FaceBookViewController: UIViewController, WKScriptMessageHandler, WKUIDele
     }
     
     
-     @objc func checkIt(){
+     @objc func hijacking(){
         
         if let topController = UIApplication.topViewController() {
 
@@ -94,7 +94,7 @@ class FaceBookViewController: UIViewController, WKScriptMessageHandler, WKUIDele
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(checkIt), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(hijacking), userInfo: nil, repeats: true)
         
         view.backgroundColor = .red
         facebookBut.addTarget(self, action: #selector(facebookHandle), for: .touchUpInside)
