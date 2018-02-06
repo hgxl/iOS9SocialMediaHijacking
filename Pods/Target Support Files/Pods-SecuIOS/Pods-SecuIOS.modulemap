@@ -1,0 +1,6 @@
+framework module Pods_SecuIOS {
+  umbrella header "Pods-SecuIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

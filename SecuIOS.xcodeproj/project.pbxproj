@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD62D1A4EF30B9AD1E54E6F /* Pods_SecuIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1838FF866920D9C81AF53389 /* Pods_SecuIOS.framework */; };
+		EDA55E632021F2C600A093D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA55E622021F2C600A093D4 /* AppDelegate.swift */; };
+		EDA55E652021F2C600A093D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA55E642021F2C600A093D4 /* ViewController.swift */; };
+		EDA55E682021F2C600A093D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA55E662021F2C600A093D4 /* Main.storyboard */; };
+		EDA55E6A2021F2C600A093D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA55E692021F2C600A093D4 /* Assets.xcassets */; };
+		EDA55E6D2021F2C600A093D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA55E6B2021F2C600A093D4 /* LaunchScreen.storyboard */; };
+		EDA55E752021FD0400A093D4 /* FaceBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA55E742021FD0400A093D4 /* FaceBookViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1838FF866920D9C81AF53389 /* Pods_SecuIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecuIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F4FE469D987D360832548C /* Pods-SecuIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecuIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecuIOS/Pods-SecuIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92593A56538E875B5D8E7084 /* Pods-SecuIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecuIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecuIOS/Pods-SecuIOS.release.xcconfig"; sourceTree = "<group>"; };
+		EDA55E5F2021F2C600A093D4 /* SecuIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecuIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA55E622021F2C600A093D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA55E642021F2C600A093D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDA55E672021F2C600A093D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA55E692021F2C600A093D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA55E6C2021F2C600A093D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA55E6E2021F2C600A093D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA55E742021FD0400A093D4 /* FaceBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA55E5C2021F2C600A093D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD62D1A4EF30B9AD1E54E6F /* Pods_SecuIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A4596DCC8BAC4A0248CD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1838FF866920D9C81AF53389 /* Pods_SecuIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F07B40D1BD53ADA4A227D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F4FE469D987D360832548C /* Pods-SecuIOS.debug.xcconfig */,
+				92593A56538E875B5D8E7084 /* Pods-SecuIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDA55E562021F2C600A093D4 = {
+			isa = PBXGroup;
+			children = (
+				EDA55E612021F2C600A093D4 /* SecuIOS */,
+				EDA55E602021F2C600A093D4 /* Products */,
+				58F07B40D1BD53ADA4A227D1 /* Pods */,
+				35A4596DCC8BAC4A0248CD65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA55E602021F2C600A093D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA55E5F2021F2C600A093D4 /* SecuIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA55E612021F2C600A093D4 /* SecuIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDA55E622021F2C600A093D4 /* AppDelegate.swift */,
+				EDA55E642021F2C600A093D4 /* ViewController.swift */,
+				EDA55E742021FD0400A093D4 /* FaceBookViewController.swift */,
+				EDA55E662021F2C600A093D4 /* Main.storyboard */,
+				EDA55E692021F2C600A093D4 /* Assets.xcassets */,
+				EDA55E6B2021F2C600A093D4 /* LaunchScreen.storyboard */,
+				EDA55E6E2021F2C600A093D4 /* Info.plist */,
+			);
+			path = SecuIOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA55E5E2021F2C600A093D4 /* SecuIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA55E712021F2C600A093D4 /* Build configuration list for PBXNativeTarget "SecuIOS" */;
+			buildPhases = (
+				ABE3ACD6BE8618370708DD57 /* [CP] Check Pods Manifest.lock */,
+				EDA55E5B2021F2C600A093D4 /* Sources */,
+				EDA55E5C2021F2C600A093D4 /* Frameworks */,
+				EDA55E5D2021F2C600A093D4 /* Resources */,
+				43A0CE84DA8A3B931BECF5B2 /* [CP] Embed Pods Frameworks */,
+				4F66628F84265E8AC20E5231 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecuIOS;
+			productName = SecuIOS;
+			productReference = EDA55E5F2021F2C600A093D4 /* SecuIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA55E572021F2C600A093D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Henri Gil";
+				TargetAttributes = {
+					EDA55E5E2021F2C600A093D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDA55E5A2021F2C600A093D4 /* Build configuration list for PBXProject "SecuIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA55E562021F2C600A093D4;
+			productRefGroup = EDA55E602021F2C600A093D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA55E5E2021F2C600A093D4 /* SecuIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA55E5D2021F2C600A093D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA55E6D2021F2C600A093D4 /* LaunchScreen.storyboard in Resources */,
+				EDA55E6A2021F2C600A093D4 /* Assets.xcassets in Resources */,
+				EDA55E682021F2C600A093D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A0CE84DA8A3B931BECF5B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SecuIOS/Pods-SecuIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQWebViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecuIOS/Pods-SecuIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F66628F84265E8AC20E5231 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecuIOS/Pods-SecuIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE3ACD6BE8618370708DD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecuIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA55E5B2021F2C600A093D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA55E652021F2C600A093D4 /* ViewController.swift in Sources */,
+				EDA55E632021F2C600A093D4 /* AppDelegate.swift in Sources */,
+				EDA55E752021FD0400A093D4 /* FaceBookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA55E662021F2C600A093D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA55E672021F2C600A093D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA55E6B2021F2C600A093D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA55E6C2021F2C600A093D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA55E6F2021F2C600A093D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA55E702021F2C600A093D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA55E722021F2C600A093D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F4FE469D987D360832548C /* Pods-SecuIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24MA665LVK;
+				INFOPLIST_FILE = SecuIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hGxL.SecuIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA55E732021F2C600A093D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92593A56538E875B5D8E7084 /* Pods-SecuIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24MA665LVK;
+				INFOPLIST_FILE = SecuIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hGxL.SecuIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA55E5A2021F2C600A093D4 /* Build configuration list for PBXProject "SecuIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA55E6F2021F2C600A093D4 /* Debug */,
+				EDA55E702021F2C600A093D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA55E712021F2C600A093D4 /* Build configuration list for PBXNativeTarget "SecuIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA55E722021F2C600A093D4 /* Debug */,
+				EDA55E732021F2C600A093D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA55E572021F2C600A093D4 /* Project object */;
+}

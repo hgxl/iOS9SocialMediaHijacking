@@ -1,0 +1,12 @@
+PODS:
+  - JSQWebViewController (6.0.0)
+
+DEPENDENCIES:
+  - JSQWebViewController
+
+SPEC CHECKSUMS:
+  JSQWebViewController: 51041569b75d19dbb6b7fe0b7ae053c32409a9be
+
+PODFILE CHECKSUM: cefc154ae0ed902ea43a8541b148fab8e92d8a8a
+
+COCOAPODS: 1.3.1
